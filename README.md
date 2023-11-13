@@ -1,6 +1,6 @@
 # AI Documentation Website 🤖
 
-Welcome to my GitHub repository featuring a comprehensive AI Documentation Website, a user-friendly platform built with HTML, CSS, and JavaScript. Explore the world of artificial intelligence with ease through this interactive and informative resource.
+Welcome to my GitHub repository featuring a comprehensive AI Documentation Website, a user-friendly platform built with HTML, CSS. Explore the world of artificial intelligence with ease through this interactive and informative resource.
 
 ## 💻 Live Website
 
