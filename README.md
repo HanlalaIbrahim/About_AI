@@ -4,14 +4,7 @@ Welcome to my GitHub repository featuring a comprehensive AI Documentation Websi
 
 ## 💻 Live Website
 
-Discover the AI Documentation Website in action! Visit [AI Docs](hanlalaibrahim.github.io/About_AI/) for an immersive learning experience.
-
-## 🚀 Features
-
-- **Responsive Design**: Access the documentation from any device with a responsive and adaptive layout.
-- **Code Samples**: Find practical code snippets and examples to implement AI concepts in your projects.
-- **Community Contributions**: Contribute to the documentation and be part of a growing AI knowledge-sharing community.
-- **Latest Updates**: Stay informed with the latest advancements and updates in the AI field.
+Discover the AI Documentation Website in action! Visit [AI Docs](https://hanlalaibrahim.github.io/About_AI/) for an immersive learning experience.
 
 ## 📝 How to Use
 
