@@ -1,0 +1,176 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+:root{
+    /* For Colors */
+    --PrimaryColor: #111111;
+    --SecondaryColor: #777777;
+    --HoverColor: #CB450C;
+}
+
+body{
+    background-color: var(--PrimaryColor);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background: var(--PrimaryColor);
+    color: var(--SecondaryColor);
+    position: fixed;
+}
+
+header h2{
+    margin-left: 50px;
+    font-family: 'Anton', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--HoverColor);
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+header li{
+    display: inline-block;
+}
+
+header a{
+    list-style: none;
+    font-size: 1em;
+    justify-content: space-between;
+    margin-right: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #777777;
+    font-family: 'Open Sans', Times, serif;
+    transition: all .4s ease;
+}
+
+header a:hover{
+    color: var(--HoverColor);
+    transform: scale(1.1);
+}
+
+.home{
+    padding: 5% 6%;
+    width: 85vw;
+}
+
+.home h2{
+    color: var(--SecondaryColor);
+    margin-top: 50px;
+    font-size: 2rem;
+    font-family: 'Anton', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+}
+
+.home p{
+    color: var(--SecondaryColor);
+    font-size: 1.2rem;
+    font-family: 'Open Sans', Times, serif;
+    line-height: 1.7rem;
+}
+span:hover{
+    color: var(--HoverColor);
+    transition: all  0.3s ease-in-out  ;
+    cursor: pointer;
+}
+
+.about{
+    padding: 5% 6%;
+    width: 85vw;
+}
+
+.about h2{
+    color: var(--SecondaryColor);
+    font-size: 2rem;
+    font-family: 'Anton', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+}
+
+.about p{
+    color: var(--SecondaryColor);
+    font-size: 1.2rem;
+    font-family: 'Open Sans', Times, serif;
+    line-height: 1.7rem;
+}
+
+.about h3{
+    color: var(--SecondaryColor);
+    font-size: 1.3rem;
+    font-family: 'Anton', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+
+.contact_container{
+    width: 100%;
+    height: 60Vh;
+    background: var(--primaryColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 700px;
+    border-radius: 10px;
+}
+
+.contact{
+    padding: 1% 6%;
+    margin-bottom: 50px;
+}
+
+.contact h2{
+    color: var(--SecondaryColor);
+    font-weight: 800;
+    font-size: 2rem;
+    font-family: 'Anton', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact p{
+    color: var(--SecondaryColor);
+    font-size: 1.2rem;
+    font-family: 'Open Sans', Times, serif;
+    line-height: 1.7rem;
+}
+
+form input, textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 10px;
+    outline: none;
+    background-color: #f5f5f5;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+form button{
+    padding: 10px;
+    background-color: var(--HoverColor);
+    color: var(--primaryColor);
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 600;
+    outline: none;
+    border: 0;
+    letter-spacing: .1rem;
+    border-radius: 10px;
+    width: 150px;
+    margin: 20px auto 0;
+
+    transition: all .3s ease-in-out;
+}
+
+form button:hover{
+    box-shadow: 0 0 .3rem var(--HoverColor);
+    transition: all 0.3s ease-in-out;
+}
